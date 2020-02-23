@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can add item to wistlist 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "image": "",
+      "name": "change this name",
+      "price": 3,
+    },
+  ],
+}
+`;
+
+exports[`can add item to wistlist 2`] = `
+Array [
+  Object {
+    "items": Array [
+      Object {
+        "image": "",
+        "name": "demo",
+        "price": 3,
+      },
+    ],
+  },
+  Object {
+    "items": Array [
+      Object {
+        "image": "",
+        "name": "change this name",
+        "price": 3,
+      },
+    ],
+  },
+  Object {
+    "items": Array [
+      Object {
+        "image": "",
+        "name": "change this name",
+        "price": 21,
+      },
+    ],
+  },
+]
+`;
+
+exports[`can record patch 1`] = `
+Array [
+  Object {
+    "op": "add",
+    "path": "/items/0",
+    "value": Object {
+      "image": "",
+      "name": "hello",
+      "price": 90,
+    },
+  },
+  Object {
+    "op": "replace",
+    "path": "/items/0/name",
+    "value": "good",
+  },
+  Object {
+    "op": "replace",
+    "path": "/items/0/price",
+    "value": 87,
+  },
+]
+`;

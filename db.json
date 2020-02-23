@@ -1,0 +1,58 @@
+{
+  "suggestions_f": [
+    {
+      "name": "NoteBook",
+      "price": 10.23
+    },
+    {
+      "name": "Lego MindStore",
+      "price": 10.23
+    }
+  ],
+  "suggestions_m": [
+    {
+      "name": "Laptop",
+      "price": 87.98
+    },
+    {
+      "name": "Lego MindStore",
+      "price": 10.23
+    }
+  ],
+  "users": [
+    {
+      "id": "demo_876",
+      "name": "demo",
+      "gender": "m",
+      "wishList": {
+        "items": []
+      },
+      "reciptient": "agreem_154"
+    },
+    {
+      "id": "agreem_154",
+      "name": "agreem",
+      "gender": "f",
+      "wishList": {
+        "items": [
+          {
+            "name": "NoteBook",
+            "price": 10.23,
+            "image": ""
+          },
+          {
+            "name": "NoteBook",
+            "price": 10.23,
+            "image": ""
+          },
+          {
+            "name": "Lego MindStore",
+            "price": 10.23,
+            "image": ""
+          }
+        ]
+      },
+      "reciptient": "demo_876"
+    }
+  ]
+}
